@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header h1 a {
+
+    color: #fff;
+    text-decoration: none;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.gallery p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: #fff;
+    text-align: left;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item p {
+    margin: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+body{
+    background-image: url('/Source/WhatsApp\ Image\ 2024-07-26\ at\ 20.54.49_3dddd8fe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
